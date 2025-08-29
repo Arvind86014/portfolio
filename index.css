@@ -85,6 +85,11 @@ body {
     display: block;
   }
 }
+@media (max-width:477px){
+.intro h1, p{
+  margin-top: 40px;
+}
+}
 
 @keyframes slideIn {
   from {
@@ -475,4 +480,5 @@ p:hover{
 .project-card:hover{
   color: lightblue;
   background-color: rgb(36, 132, 106);
+
 }
