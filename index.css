@@ -88,7 +88,7 @@ body {
 @media (max-width:477px){
 .intro h1, p{
   margin-top: 40px;
-  margin-left:-20px;
+ margin-left: 20px;
 }
 }
 
@@ -483,4 +483,5 @@ p:hover{
   background-color: rgb(36, 132, 106);
 
 }
+
 
