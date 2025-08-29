@@ -88,15 +88,16 @@ body {
 @media (max-width:477px){
 .intro h1, p{
   margin-top: 40px;
- margin-left: 20px;
+ margin-left: -20px;
 }
-  .intro {
-  background: url('https://source.unsplash.com/1600x900/?technology,abstract') no-repeat center center/cover;
-  padding: 100px 20px;
-  color: white;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-  transition: transform 0.5s ease;
+ .photo{
+  margin-left: -40px;
+}
+.main-content .photo {
+  margin-left: -4px;
+}
+  .intro .tagline,.cta-button{
+    margin-left: -20px;
 }
 }
 
@@ -491,6 +492,7 @@ p:hover{
   background-color: rgb(36, 132, 106);
 
 }
+
 
 
 
